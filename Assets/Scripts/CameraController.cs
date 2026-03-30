@@ -3,8 +3,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [Header("相机设置")]
-    public float moveSpeed = 10f;
-    public float rotateSpeed = 100f;
+    public float moveSpeed = 5f;
     public float lookSpeed = 2f;
 
     void Update()
